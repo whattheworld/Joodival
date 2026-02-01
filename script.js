@@ -4,7 +4,7 @@ canvas.height = window.innerHeight;
 
 var context = canvas.getContext("2d");
 var stars = 500;
-var colorrange = [0, 60, 240];
+var colorrange = [350, 0, 10];
 var starArray = [];
 
 function getRandom(min, max) {
